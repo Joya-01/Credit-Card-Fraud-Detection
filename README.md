@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection 
 
-This project implements a Machine Learning model to detect fraudulent credit card transactions. It aims to solve the problem of identifying unauthorized transactions so that customers are not charged for items they did not purchase.
+This project implements a Machine Learning model to detect fraudulent credit card transactions. It aims to solve the problem of identifying unauthorized transactions.
 
 ## Project Overview
 Credit card fraud detection is a classic **imbalanced classification** problem. The dataset typically contains a very small percentage of fraudulent transactions compared to legitimate ones. This project explores data preprocessing, handling class imbalance, and training various machine learning models to accurately classify transactions.
@@ -36,17 +36,16 @@ The dataset used in this project is the [Credit Card Fraud Detection dataset](ht
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Joya-01/Credit-Card-Fraud-Detection.git](https://github.com/Joya-01/Credit-Card-Fraud-Detection.git)
+   git clone https://github.com/Joya-01/Credit-Card-Fraud-Detection.git
 
 2. Navigate to the project directory:
    ```bash
    cd Credit-Card-Fraud-Detection
+   
 3. Install dependencies (if you have a requirements file, otherwise install manually):
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
+   
 4. Open the Jupyter Notebook:
    ```bash
    jupyter notebook Credit_Card_Fraud_Detection.ipynb
-
-## License
-This project is open-source and available under the MIT License.
